@@ -1660,3 +1660,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
+.form {
+  width: 550px;
+  height: 715px;
+}
+
+
+@media only screen and (max-width: 380px) {
+  .form {
+      width: 315px;
+      height: 720px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form {
+      width: 380px;
+      height: 715px;
+  }
+}
