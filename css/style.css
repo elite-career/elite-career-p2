@@ -712,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
-  bottom: -30px;
+  bottom: 0px;
   right: 0;
   text-align: center;
   padding-top: 10px;
@@ -731,6 +731,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
+  text-transform: uppercase;
 }
 
 #speakers .speaker .details .social {
